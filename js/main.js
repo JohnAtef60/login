@@ -48,7 +48,7 @@ function login() {
         incomplete.classList.remove('d-none')
     }
     else if (isValid()) {
-        window.location.href = 'welcome.html'
+        window.location.href = 'html/welcome.html'
     }
     else {
         incorrect.classList.remove('d-none')
@@ -64,5 +64,5 @@ function isValid() {
 }
 
 function logout() {
-    window.location.href = "index.html"
+    window.location.href = "../index.html"
 }
